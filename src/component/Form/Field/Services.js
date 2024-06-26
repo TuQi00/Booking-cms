@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Typography, Box } from '@mui/material';
+// style={{ margin: '8px' , fontSize: '18px'}} // Adjust margin between buttons
 const Services = () => {
     const [selectedService, setSelectedService] = useState(null);
     const options = [
@@ -23,7 +24,6 @@ const Services = () => {
                         key={option.value}
                         variant={option.value === selectedService ? 'contained' : 'outlined'}
                         onClick={() => handleClick(option.value)}
-                        style={{ margin: '8px' , fontSize: '18px'}} // Adjust margin between buttons
                     >
                         {option.label}
                     </Button>

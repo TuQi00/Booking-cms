@@ -9,14 +9,6 @@ import TimeSelect from './Field/Time';
 import SubServices from './Field/SubServices';
 
 const MyForm = () => {
-   
-   
-    const [selectedTime, setSelectedTime] = React.useState('');
-    
-      const handleTimeChange = (event) => {
-        setSelectedTime(event.target.value);
-      };
-
     const handleSubmit = () => {
         //handle submit
 

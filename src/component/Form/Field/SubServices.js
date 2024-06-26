@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button, Typography, Box } from '@mui/material';
-
+// style={{ margin: '8px', color: '#000000', borderColor: '#0033cc', fontSize: '18px'}} 
 const SubServices = () => {
     const [selectedSubServices, setSelectedSubServices] = useState(null);
 
@@ -27,7 +27,7 @@ const SubServices = () => {
                         key={option.value}
                         variant={option.value === selectedSubServices ? 'contained' : 'outlined'}
                         onClick={() => handleClick(option.value)}
-                        style={{ margin: '8px', color: '#000000', borderColor: '#0033cc', fontSize: '18px'}} 
+                       
                     >
                         {option.label}
                     </Button>

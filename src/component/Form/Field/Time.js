@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Typography, Box } from '@mui/material';
-
+//  style={{ margin: '8px', borderColor: '#006633' ,fontSize: '18px' }}
 function TimeSelect() {
   const [selectedTime, setSelectedTime] = useState(null);
 
@@ -25,7 +25,7 @@ function TimeSelect() {
             key={option.value}
             variant={option.value === selectedTime ? 'contained' : 'outlined'}
             onClick={() => handleClick(option.value)}
-            style={{ margin: '8px', borderColor: '#006633' ,fontSize: '18px' }}
+          
           >
             {option.label}
           </Button>
