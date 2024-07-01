@@ -4,6 +4,7 @@ import { GearSix as GearSixIcon } from '@phosphor-icons/react/dist/ssr/GearSix';
 import { PlugsConnected as PlugsConnectedIcon } from '@phosphor-icons/react/dist/ssr/PlugsConnected';
 import { User as UserIcon } from '@phosphor-icons/react/dist/ssr/User';
 import { Users as UsersIcon } from '@phosphor-icons/react/dist/ssr/Users';
+import { Calendar as Calendaricon } from '@phosphor-icons/react/dist/ssr/Calendar';
 import { XSquare } from '@phosphor-icons/react/dist/ssr/XSquare';
 import { Table } from '@phosphor-icons/react/dist/ssr/Table';
 
@@ -13,6 +14,7 @@ export const navIcons = {
   'plugs-connected': PlugsConnectedIcon,
   'x-square': XSquare,
   'table':Table,
+  'calendar':Calendaricon,
   user: UserIcon,
   users: UsersIcon,
 } as Record<string, Icon>;
