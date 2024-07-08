@@ -7,7 +7,8 @@ import { Users as UsersIcon } from '@phosphor-icons/react/dist/ssr/Users';
 import { Calendar as Calendaricon } from '@phosphor-icons/react/dist/ssr/Calendar';
 import { XSquare } from '@phosphor-icons/react/dist/ssr/XSquare';
 import { Table } from '@phosphor-icons/react/dist/ssr/Table';
-
+import { User} from '@phosphor-icons/react/dist/ssr/User';
+import { ListBullets } from '@phosphor-icons/react/dist/ssr/ListBullets';
 export const navIcons = {
   'chart-pie': ChartPieIcon,
   'gear-six': GearSixIcon,
@@ -15,6 +16,8 @@ export const navIcons = {
   'x-square': XSquare,
   'table':Table,
   'calendar':Calendaricon,
+  'person':User,
+  'list':ListBullets,
   user: UserIcon,
   users: UsersIcon,
 } as Record<string, Icon>;

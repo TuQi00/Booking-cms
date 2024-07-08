@@ -9,6 +9,8 @@ export const paths = {
     settings: '/dashboard/settings',
     form:'/dashboard/form',
     appointment:'dashboard/appointment',
+    employee: '/dashboard/employee',
+    services: '/dashboard/service',
   },
   errors: { notFound: '/errors/not-found' },
 } as const;
